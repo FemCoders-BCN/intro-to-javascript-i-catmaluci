@@ -32,6 +32,12 @@ let x = false;         // x is a Boolean
 let y = new Boolean(false);  // y is an object
 console.log('y:', y)
 
+//object
+let user = {
+    nickname: 'Catmaluci'
+}
+console.log(user)
+
 //null
 let z = null;
 //Boolean (z);
@@ -66,6 +72,7 @@ console.table (coder);
 
 console.log('name:',typeof(name));
 console.log('number:',typeof(number));
+console.log('user',typeof(user));
 console.log('x:',typeof(x));
 console.log('y:',typeof(y));
 console.log('z:',typeof(z));
